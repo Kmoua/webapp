@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ui-page-theme-a .ui-bar-inherit{
+	background-color:#04a3bd;
+	text-shadow: none;
+}
+
+.ui-footer .ui-title{
+	color:#ffffff;
+}

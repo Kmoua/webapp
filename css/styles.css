@@ -1,0 +1,17 @@
+body {
+	margin: 0 auto;
+	font-family:arial, sans-serif;
+	color:#313131;
+	font-size:14px;
+	line-height:22px;
+}
+h1 {
+	font-family:arial, sans-serif;
+	color:#99cd1c;
+}
+
+.container {
+	max-width:1024px;
+	margin:0 auto;
+	padding:40px; 
+}

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Module 4 Course Project | jQuery Mobile Web App</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<link rel="stylesheet" href="themes/Mytheme.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,600|Raleway:400" rel="stylesheet">
+<!--<link rel="stylesheet" href="css/main.css">-->
+</head>
+<body>
+<div id="page" data-role="page" data-add-back-btn="true" data-theme="c">
+  <div data-role="header" style="background:#ffffff">
+    <h1><img src="images/logo.gif" width="40"></h1>
+  </div>
+  <div data-role="header">
+    <h1 style="color:#ffffff;">Course Project</h1>
+    <a href="#myPanel" class="ui-btn ui-btn-inline ">Contact</a>
+  </div>
+  
+  <div data-role="panel" id="myPanel" data-display="overlay">
+    <h2>Contact</h2>
+    
+    <p>For more information, please contact 1.800.123.0000</p>
+    <p>Or visit us on: <br /><a href="#">Facebook</a> <br /> <a href="#">Instagram</a> <br /> <a href="#">Pinterest</a></p>
+  </div>
+  
+  
+  <div data-role="main" class="ui-content">
+    <p class="centerText">This website will showcase favorite home decorations, room settings and ideas. It is a collection of all resources in one place, making it easy to keep track of and find.</p>
+    <p>In addition to displaying a majority of imagery to illustrate favorite items, you will see links to web resources where I can find all of my favorite decorations.</p>
+  </div>
+  
+  
+  <div data-role="content" data-theme="c">
+    <ul data-role="listview" data-filter="true">
+      <li data-icon="arrow-r"><a href="#section1">Bedroom Style Ideas - Grid</a></li>
+      <li><a href="#section2">Bathroom Style Ideas</a></li>
+      <li><a href="#section3">Storage Ideas</a></li>
+      <li><a href="#section4">Living Room Style Ideas - List</a></li>
+      <li data-icon="star"><a href="#section5">Accents</a></li>
+      <li><a href="#section6">Contact</a></li>
+      <li data-icon="action"><a href="#webstorage">Your Favorites</a></li>
+    </ul>
+  </div>
+  <div data-role="footer">
+    <h4>Kaleah App &copy; 2019</h4>
+  </div>
+</div>
+<div id="section1" data-role="page" data-add-back-btn="true">
+
+  <div data-role="header" data-theme="a" data-add-back-btn="true">
+    <h1>Bedroom Style Ideas</h1>
+  </div>
+  <div data-role="content" data-theme="c">
+    
+    <h3>Bedroom Style Ideas - Grid</h3>
+    <p>This will contain a grid of home decor images </p>
+    <p>This area uses a grid. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec massa tincidunt, porttitor enim sit amet, pellentesque nunc. Proin varius mollis ultricies. In aliquam dapibus orci, quis dictum dui sollicitudin vel. Vivamus nec malesuada leo. Nulla est orci, ornare ut ultricies a, bibendum in sem. Donec convallis pharetra ligula in malesuada. Ut hendrerit dui et aliquam dignissim. Aenean a metus eget felis tempor pellentesque nec iaculis ipsum. </p>
+    <div class="ui-grid-b">
+      <div class="ui-block-b" style="max-height:200px;">
+        <div class="ui-bar ui-bar-b">
+          <img src="https://freshome.com/wp-content/uploads/2015/07/white-bedroom-small.jpg" style="max-height:200px;">
+        </div>
+      </div>
+      <div class="ui-block-b" style="max-height:200px;">
+        <div class="ui-bar ui-bar-b">
+          <img src="https://secure.img1-fg.wfcdn.com/im/97781965/resize-h406-w406%5Ecompr-r85/6708/67089068/Glam+Bedroom+Design.jpg" style="max-height:200px;">
+        </div>
+      </div>
+      <div class="ui-block-b" style="max-height:200px;">
+        <div class="ui-bar ui-bar-b">
+          <img src="https://secure.img1-fg.wfcdn.com/im/73308928/resize-h279-w406%5Ecompr-r85/2909/29096263/Mid-Century+Modern+Bedroom+Design.jpg" style="max-height:200px;">
+        </div>
+      </div>
+      <div class="ui-block-b" style="max-height:200px;">
+        <div class="ui-bar ui-bar-b">
+          <img src="https://secure.img1-fg.wfcdn.com/im/63943960/resize-h406-w406%5Ecompr-r85/6441/64414055/Glam+Bedroom+Design.jpg" style="max-height:200px;">
+        </div>
+      </div>
+      <div class="ui-block-b" style="max-height:200px;">
+        <div class="ui-bar ui-bar-b">
+          <img src="https://secure.img1-fg.wfcdn.com/im/96852130/resize-h279-w406%5Ecompr-r85/6779/67791137/Modern+Rustic+Bedroom+Design.jpg" style="max-height:200px;">
+        </div>
+      </div>
+      <div class="ui-block-b" style="max-height:200px;">
+        <div class="ui-bar ui-bar-b">
+          <img src="https://secure.img1-fg.wfcdn.com/im/45330711/resize-h270-w406%5Ecompr-r85/4484/44849730/Glam+Bedroom+Design.jpg" style="max-height:200px;">
+        </div>
+      </div>
+    </div>
+    <!-- /grid-b --> 
+    
+  </div>
+  <div data-role="footer" data-theme="a">
+    <h4>Kaleah App &copy; 2019</h4>
+  </div>
+</div>
+<div id="section2" data-role="page" data-add-back-btn="true">
+  <div data-role="header" data-theme="a" data-add-back-btn="true">
+    <h1>Bathroom Style Ideas</h1>
+  </div>
+  <div data-role="content" data-theme="a">
+    <h3>Bathroom Style Ideas</h3>
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec massa tincidunt, porttitor enim sit amet, pellentesque nunc. Proin varius mollis ultricies. In aliquam dapibus orci, quis dictum dui sollicitudin vel. Vivamus nec malesuada leo. Nulla est orci, ornare ut ultricies a, bibendum in sem. Donec convallis pharetra ligula in malesuada. Ut hendrerit dui et aliquam dignissim. Aenean a metus eget felis tempor pellentesque nec iaculis ipsum. </p>
+  </div>
+  <div data-role="footer">
+    <h4>Kaleah App &copy; 2019</h4>
+  </div>
+</div>
+<div id="section3" data-role="page" data-add-back-btn="true">
+  <div data-role="header" data-theme="a" data-add-back-btn="true">
+    <h1>Storage Ideas</h1>
+  </div>
+  <div data-role="content" data-theme="a">
+    <h3>Storage Ideas</h3>
+    <div id="result" class="list"></div>
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec massa tincidunt, porttitor enim sit amet, pellentesque nunc. Proin varius mollis ultricies. In aliquam dapibus orci, quis dictum dui sollicitudin vel. Vivamus nec malesuada leo. Nulla est orci, ornare ut ultricies a, bibendum in sem. Donec convallis pharetra ligula in malesuada. Ut hendrerit dui et aliquam dignissim. Aenean a metus eget felis tempor pellentesque nec iaculis ipsum. </p>
+    <a href="http://www.amazon.com">Amazon</a> </div>
+  <div data-role="footer">
+    <h4>Kaleah App &copy; 2019</h4>
+  </div>
+</div>
+<div id="section4" data-role="page" data-add-back-btn="true">
+  <div data-role="header" data-theme="a" data-add-back-btn="true">
+    <h1>Living Room Style Ideas - List</h1>
+  </div>
+  <div data-role="content" data-theme="a">
+    <h2>Living Room Style Ideas</h2>
+    <p>Build your own list. Submit as many items as you like. This will display a list of all items you have submitted in this form.</p>
+    
+    <!-- LIST FORM -->
+    <div class="small-container">
+      <form>
+        <input id="item" type="text" placeholder="Input one item and submit. ">
+      </form>
+      <h2>Items</h2>
+      <ul class="favItems">
+      </ul>
+      <button class="submitList">Submit</button>
+      <button class="clearList">Clear All</button>
+    </div>
+  </div>
+  <div data-role="footer">
+    <h4>Kaleah App &copy; 2019</h4>
+  </div>
+</div>
+<div id="section5" data-role="page" data-add-back-btn="true">
+  <div data-role="header" data-theme="a" data-add-back-btn="true">
+    <h1>Accents</h1>
+  </div>
+  <div data-role="content" data-theme="a">
+    <h3>Accents</h3>
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec massa tincidunt, porttitor enim sit amet, pellentesque nunc. Proin varius mollis ultricies. In aliquam dapibus orci, quis dictum dui sollicitudin vel. Vivamus nec malesuada leo. Nulla est orci, ornare ut ultricies a, bibendum in sem. Donec convallis pharetra ligula in malesuada. Ut hendrerit dui et aliquam dignissim. Aenean a metus eget felis tempor pellentesque nec iaculis ipsum. </p>
+    <a href="http://www.amazon.com">Amazon</a> </div>
+  <div data-role="footer">
+    <h4>Kaleah App &copy; 2019</h4>
+  </div>
+</div>
+<div id="section6" data-role="page" data-add-back-btn="true">
+  <div data-role="header" data-theme="a" data-add-back-btn="true">
+    <h1>Contact</h1>
+  </div>
+  <div data-role="content" data-theme="b">
+    <h3>Contact</h3>
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec massa tincidunt, porttitor enim sit amet, pellentesque nunc. Proin varius mollis ultricies. In aliquam dapibus orci, quis dictum dui sollicitudin vel. Vivamus nec malesuada leo. Nulla est orci, ornare ut ultricies a, bibendum in sem. Donec convallis pharetra ligula in malesuada. Ut hendrerit dui et aliquam dignissim. Aenean a metus eget felis tempor pellentesque nec iaculis ipsum. </p>
+    <form action="form.php" method="post">
+      <label for="fname">First name:</label>
+      <input type="text" name="fname" id="fname" data-clear-btn="true">
+      <label for="lname">Last name:</label>
+      <input type="text" name="lname" id="lname" data-clear-btn="true">
+      <label for="email">Email:</label>
+      <input type="text" name="email" id="email" data-clear-btn="true">
+      <label for="message">Message:</label>
+      <textarea name="message" id="message" data-clear-btn="true"></textarea>
+      <p>How did you find us?</p>
+      <label>Another website
+        <input type="radio" name="radio-choice-0" id="radio-choice-0a">
+      </label>
+      <label for="radio-choice-0b">Friend</label>
+      <input type="radio" name="radio-choice-0" id="radio-choice-0b" class="custom">
+      <input type="reset" value="Reset Button">
+      <input type="submit" value="Submit Button">
+    </form>
+  </div>
+  <div data-role="footer">
+    <h4>Kaleah App &copy; 2019</h4>
+  </div>
+</div>
+<div data-role="page" id="webstorage" data-theme="a" data-add-back-btn="true">
+  <div data-role="header" data-theme="a" data-add-back-btn="true">
+    <h1>Your Favorites</h1>
+  </div>
+  <div data-role="content" data-theme="a">
+    <p>What is your favorite item?</p>
+    <p id="favorite">This is the webstorage. Anything typed here will be stored even after closing out from the browser.</p>
+    <textarea class="localstorage" placeholder="Anything you type here will be saved with HTML5 localStorage." autofocus></textarea>
+    <button class="submit">Submit</button>
+    <button class="clear">Clear localStorage</button>
+    <button class="empty">Empty localStorage</button>
+  </div>
+  <div data-role="footer">
+    <h4>Kaleah App &copy; 2019</h4>
+  </div>
+</div>
+</body>
+</html>
+<script>
+  (function() {
+    var rasm = document.querySelector('.localstorage');
+
+    function supportsLocalStorage() {
+      return typeof(Storage)!== 'undefined';
+    }
+
+    if (!supportsLocalStorage()) {
+      rasm.value = 'Your browser does not support localStorage.';
+    }
+    else {
+      try {
+        setInterval(function() {
+          localStorage.setItem('autosave', rasm.value);
+        }, 1000);
+      } 
+      catch (e) {
+        if (e == QUOTA_EXCEEDED_ERR) { alert('Quota exceeded!');	}
+      }
+
+    if (localStorage.getItem('autosave')) {
+      rasm.value = localStorage.getItem('autosave');
+      document.getElementById('favorite').innerHTML = "Your favorite item is: " + rasm.value;
+    }
+
+    document.querySelector('.submit').onclick = function() {
+      document.getElementById('favorite').innerHTML = "Your favorite item is: " + rasm.value;
+    };
+
+    document.querySelector('.clear').onclick = function() {
+      rasm.value = '';
+      localStorage.removeItem('autosave');
+      document.getElementById('favorite').innerHTML = "";
+    };
+
+    document.querySelector('.empty').onclick = function() {
+      rasm.value = '';
+      localStorage.clear();
+      document.getElementById('favorite').innerHTML = "";
+      };
+    }
+
+  })();
+
+	
+	// MAKING A LIST -----------------------------------------------------------------------------
+	
+ 	const form = document.querySelector('form');
+	const ul = document.querySelector('.favItems');
+	const clearbutton = document.querySelector('.clearList');
+	const listbutton = document.querySelector('.submitList');
+	const input = document.getElementById('item');
+	let itemsArray = localStorage.getItem('items') ? JSON.parse(localStorage.getItem('items')) : [];
+
+	localStorage.setItem('items', JSON.stringify(itemsArray));
+	const data = JSON.parse(localStorage.getItem('items'));
+
+	// This creates the list element
+	const liMaker = (text) => {
+	  const li = document.createElement('li');
+	  li.textContent = text;
+	  ul.appendChild(li);
+	}
+
+	// This puts the items into an array
+	listbutton.addEventListener('click', function (e) {
+	  e.preventDefault();
+
+	  itemsArray.push(input.value);
+	  localStorage.setItem('items', JSON.stringify(itemsArray));
+	  liMaker(input.value);
+	  input.value = "";
+	});
+
+	// Put each item in array into the list
+	data.forEach(item => {
+	  liMaker(item);
+	});
+
+	// This clears the list/array
+	clearbutton.addEventListener('click', function () {
+	  localStorage.clear();
+	  while (ul.firstChild) {
+		ul.removeChild(ul.firstChild);
+	  }
+	  itemsArray = [];
+	});
+
+</script>
